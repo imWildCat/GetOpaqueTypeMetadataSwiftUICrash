@@ -6,6 +6,19 @@
 2. Product -> Profile
 3. Run the app on 
 
+## Crashing Snippet
+
+```swift
+@ViewBuilder
+  func searchableFor15(text: Binding<String>) -> some View {
+    if #available(iOS 15, *) {
+      AnyView(searchable(text: text))
+    } else {
+      AnyView(self)
+    }
+  }
+```
+
 ## Crash Stack
 
 ```
