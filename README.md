@@ -304,6 +304,16 @@ Thread 0 Crashed:
 132 libdyld.dylib                        0x0000000197692140 start + 0
 ```
 
+## Reason
+
+Please read [Why Conditional View Modifiers are a Bad Idea](https://www.objc.io/blog/2021/08/24/conditional-view-modifiers/).
+
+Thanks [@JinyaMax](https://twitter.com/JinyaMax/status/1472426370462482432) for sharing this!
+
+## Solution / Workaround
+
+<https://twitter.com/JinyaMax/status/1472440889016348674>
+
 ## Similar Case(s)
 
 - <https://developer.apple.com/forums/thread/650818>: Availability check crashes on iOS 13.
