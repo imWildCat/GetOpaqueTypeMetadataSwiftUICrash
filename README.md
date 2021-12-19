@@ -1,6 +1,6 @@
 # Demo project of Swift language crash using Release build on iOS 14
 
-## Repro steps
+## Reproduction Steps
 
 1. Open `GetOpaqueTypeMetadataSwiftUICrash.xcodeproj`
 2. Product -> Profile
@@ -303,3 +303,7 @@ Thread 0 Crashed:
 131 FooApp                               0x0000000102622744 main (AppDelegate.swift:16)
 132 libdyld.dylib                        0x0000000197692140 start + 0
 ```
+
+## Similar Case(s)
+
+- <https://developer.apple.com/forums/thread/650818>: Availability check crashes on iOS 13.
