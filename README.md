@@ -9,14 +9,16 @@
 ## Crashing Snippet
 
 ```swift
-@ViewBuilder
+public extension View {
+  @ViewBuilder
   func searchableFor15(text: Binding<String>) -> some View {
     if #available(iOS 15, *) {
-      AnyView(searchable(text: text))
+      searchable(text: text)
     } else {
-      AnyView(self)
+      self
     }
   }
+}
 ```
 
 ## Crash Stack (Simulator)
