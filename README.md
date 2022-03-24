@@ -1,5 +1,8 @@
 # Demo project of Swift language crash using Release build on iOS 14
 
+> Apple silently fixed this problem starting from Xcode 13.3
+> For more information, please visit: <https://developer.apple.com/forums/thread/697070?login=true>
+
 ## Reproduction Steps
 
 1. Open `GetOpaqueTypeMetadataSwiftUICrash.xcodeproj`
